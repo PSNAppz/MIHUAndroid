@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
     android:background="#455a64"
@@ -18,14 +17,15 @@
         android:layout_width="88dp"
         android:layout_height="66dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/logo" />
+        android:src="@drawable/logo"
+        android:contentDescription="" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="286dp"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="MIHU Help Desk"
+        android:text="@string/mihu_help_desk"
         android:textColor="#000"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -35,6 +35,6 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.29"
         android:textColor="#000"
-        android:text="Think with heart, Serve with hands" />
+        android:text="@string/think_with_heart_serve_with_hands" />
 
 </LinearLayout>

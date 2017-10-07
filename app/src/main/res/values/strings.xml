@@ -9,4 +9,6 @@
     <string name="title_activity_loading">LoadingActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="mihu_help_desk">MIHU Help Desk</string>
+    <string name="think_with_heart_serve_with_hands">Think with heart, Serve with hands</string>
 </resources>
