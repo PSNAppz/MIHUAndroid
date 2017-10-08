@@ -81,8 +81,8 @@ public class MainActivity extends AppCompatActivity
             URL = "http://mihu.amrita.ac.in";
             loadPage(URL);
         } else if (id == R.id.nav_gallery) {
-            Intent faq = new Intent(MainActivity.this,FAQ.class);
-            startActivity(faq);
+            URL = "http://mihu.amrita.ac.in/faq";
+            loadPage(URL);
         } else if (id == R.id.nav_send) {
             URL = "http://mihu.amrita.ac.in/about";
             loadPage(URL);
